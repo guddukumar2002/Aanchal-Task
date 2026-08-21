@@ -1,7 +1,7 @@
 {
-  "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "installCommand": "npm install --ignore-scripts=false",
+  "installCommand": "npm install && node node_modules/esbuild/install.js",
+  "buildCommand": "npm run build",
   "framework": "vite",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
