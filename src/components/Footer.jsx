@@ -62,7 +62,7 @@ export default function Footer() {
               <img 
                 src="/images/logo.png" 
                 alt="Aanchal Sarees That Tell Stories" 
-                style={{ height: '78px', width: 'auto', display: 'block' }}
+                style={{ height: '140px', width: 'auto', display: 'block' }}
                 onError={(e) => {
                   e.currentTarget.style.display = 'none';
                   if (e.currentTarget.nextSibling) e.currentTarget.nextSibling.style.display = 'block';
